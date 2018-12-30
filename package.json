@@ -4,6 +4,7 @@
   "description": "Simple boilerplate for REST APIs using TypeScript and Express framework",
   "main": "src/index.ts",
   "scripts": {
+    "distribution": "npm install && npm run build && ./scripts/tag_installation.sh && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node dist/index.js",
