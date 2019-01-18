@@ -2,3 +2,5 @@ node_modules
 dist
 version
 .directory
+.vscode
+.idea
